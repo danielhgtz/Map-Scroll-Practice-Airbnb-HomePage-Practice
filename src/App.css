@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.App-background {
+  background: #edb596;
+  min-height: 120vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  position: absolute;
+  width: 102px;
+  height: 35px;
+  left: 30px;
+  top: 22px;
+}
+
+.groupPhotosHome {
+  position: absolute;
+  width: 400.91px;
+  height: 235px;
+  left: 77px;
+  top: 96px;
+}
+
+.title1 {
+  position: absolute;
+  width: 347px;
+  height: 40px;
+  left: 36px;
+  top: 360px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.parr1 {
+  position: absolute;
+  width: 320px;
+  height: 56px;
+  left: 36px;
+  top: 416px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+
+  color: #222222;
+}
+
+.card {
+  position: relative;
+  width: 170px;
+  height: 250px;
+
+  top: 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+
+.airbnbHouses {
+  width: 300px;
+  height: 200px;
+  left: 37px;
+  top: 521px;
+
+  border-radius: 25px;
+}
+
+.redStar {
+  width: 14px;
+  height: 14px;
+  left: 10px;
+  top: 270px;
+
+  border-radius: 0.5px;
+}
+.span1 {
+  width: 14px;
+  height: 14px;
+  left: 25px;
+  top: 266px;
+}
+.span2 {
+  width: 14px;
+  height: 14px;
+  left: 48px;
+  top: 266px;
+}
+.span3 {
+  width: 14px;
+  height: 14px;
+  left: 70px;
+  top: 266px;
+}
+.parr2 {
+  width: 320px;
+
+  left: 36px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+
+  color: #222222;
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+
+.parr3 {
+  width: 144px;
+  height: 14px;
+
+  left: 40px;
+  top: 292px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  color: #222222;
+}
+
+.row {
+  display: "flex";
+  flex-direction: row;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 140px;
+
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.position {
+  position: absolute;
+
+  top: 480px;
+  left: 60px;
+}
+
+.btnHouses {
+  align-items: center;
+  background: #ffffff;
+  border: 0 solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1a202c;
+  display: inline-block;
+
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  top: 40px;
+  left: 10px;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.firm {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+  position: absolute;
+  top: 850px;
+  left: 650px;
+  text-align: center;
+}
